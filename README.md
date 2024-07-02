@@ -42,12 +42,12 @@ The API is accessible via the endpoint `/:p1/:p2/:p3` where `p1`, `p2`, and `p3`
 Assume the base URL is `http://127.0.0.1:5000/`
 ### Examples
 
-- **Get maximum draws for scores 0, 0, 0**
+- **Get maximum draws for scores 0, 0, 0. by changing the base URL to**
   ```bash
-  curl http://127.0.0.1:5000/0/0/0
+  http://127.0.0.1:5000/0/0/0
   ```
 
-- **Get maximum draws for scores 1, 1, 2**
+- **Get maximum draws for scores 1, 1, 2. using curl.**
   ```bash
   curl http://127.0.0.1:5000/1/1/2
   ```
