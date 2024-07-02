@@ -14,6 +14,10 @@ def calculate_max_draws(p1, p2, p3):
             return p1+p2
     return -1
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "This is my backend server for the Go Game Score Calculation API."})
+
 @app.route('/<int:p1>/<int:p2>/<int:p3>', methods=['GET'])
 
 def get_max_draws(p1, p2, p3):
