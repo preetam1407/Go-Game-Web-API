@@ -42,7 +42,7 @@ The API is accessible via the endpoint `/:p1/:p2/:p3` where `p1`, `p2`, and `p3`
 Assume the base URL is `http://127.0.0.1:5000/`
 ### Examples
 
-- **Get maximum draws for scores 0, 0, 0. by changing the base URL to**
+- **Get maximum draws for scores 0, 0, 0. by changing the URL to**
   ```bash
   http://127.0.0.1:5000/0/0/0
   ```
